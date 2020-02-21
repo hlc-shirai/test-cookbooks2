@@ -1,10 +1,10 @@
 wpdir = "/usr/bin/"
 
 remote_file "#{wpdir}/wp" do
-  source "https://github.com/wp-cli/wp-cli/releases/download/v1.5.1/wp-cli-1.5.1.phar"
+  source "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
   owner "root"
   group "root"
   mode 00755
-  checksum "0cc7a95e68a2ef02fc423614806c29a8e76e4ac8c9b3e67d6673635d6eaea871"
+  checksum "325924cf161856f9478f2a154572698ecb5d1054e620843b9c43a7baf4e5ce3b"
 end
 
