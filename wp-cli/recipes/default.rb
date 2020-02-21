@@ -5,5 +5,6 @@ remote_file "#{wpdir}/wp" do
   owner "root"
   group "root"
   mode 00755
+  checksum "2906a669a28d2a344da88c63c96aff3c"
 end
 
